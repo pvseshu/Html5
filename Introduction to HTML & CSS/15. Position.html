@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Position</title>
+	<style>
+		.relativeDiv{
+			min-height:100px;
+			background-color: green;
+			padding: 10px;
+			position:relative;
+			left: 20px;
+			top: 25px;
+		}
+		
+		.fixedDiv{
+			min-height:40px;
+			background-color: red;
+			width: 600px;
+			font-size: 30px;
+			text-align: center;
+			position:fixed;
+			bottom:0;
+			left: 450px;
+		}
+		
+		.minDiv{
+			height: 300px;
+			border: 1px solid;
+			margin: 5px;
+		}
+		
+		.divrelative {
+			position: relative;
+			width: 400px;
+			height: 200px;
+			border: 3px solid #73AD21;
+		} 
+
+		.divabsolute {
+			position: absolute;
+			top: 80px;
+			right: 0;
+			width: 200px;
+			height: 100px;
+			border: 3px solid #73AD21;
+		}
+		
+	</style>
+</head>
+<body>
+	<div  class="relativeDiv" >
+		
+	</div>
+	
+	<div  class="fixedDiv" >
+		Advertise here
+	</div>
+	
+	<br>	<br> 	<br>	<br>
+	
+	<div  class="divrelative" >
+		<div class="divabsolute"> </div>
+	</div>
+
+	<div class="minDiv"> </div>
+	<div class="minDiv"> </div>
+	<div class="minDiv"> </div>
+	<div class="minDiv"> </div>
+	<div class="minDiv"> </div>
+	<div class="minDiv"> </div>
+</body>
+</html>

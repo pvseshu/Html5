@@ -1,0 +1,8 @@
+background-color:red
+color:green
+font-size:20px;
+font-family:verdana;courier;
+text-align:center;
+border
+padding
+margin
